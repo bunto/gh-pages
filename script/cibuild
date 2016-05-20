@@ -1,0 +1,12 @@
+#!/bin/sh
+# Test that all dependencies resolve
+
+set -ex
+
+bundle exec bunto --version
+bundle exec rspec
+script/fmt --display-style-guide
+
+rm -Rf ./test-site
+bundle exec bunto new test-site
+cd test-site && bundle exec bunto build --trace
