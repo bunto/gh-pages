@@ -22,7 +22,7 @@ module GitHubPages
       bunto-redirect-from
       bunto-seo-tag
       bunto-sitemap
-      jemoji
+      bemoji
     ).freeze
 
     # Default, user overwritable options
