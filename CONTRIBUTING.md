@@ -43,7 +43,7 @@ To test your Gem with [Bundler](http://bundler.io), you can:
 2. Add a `Gemfile` like the following:
 
     ```ruby
-    gem 'github-pages', :git => 'https://github.com/<you>/gh-pages.git', :branch => '<your branch name>', :require => 'gh-pages'
+    gem 'gh-pages', :git => 'https://github.com/<you>/gh-pages.git', :branch => '<your branch name>', :require => 'gh-pages'
     ```
 
 3. Execute `bundle install`
