@@ -96,7 +96,7 @@ Metrics/MethodLength:
   Max: 20
   Severity: error
   Exclude:
-    - lib/github-pages.rb  # Exclude the dependency hash method
+    - lib/gh-pages.rb  # Exclude the dependency hash method
 
 Style/Alias:
   Enabled: false # We have no guidance on alias vs alias_method
